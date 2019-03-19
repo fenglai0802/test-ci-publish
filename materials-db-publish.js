@@ -27,7 +27,7 @@ function publishMaterialsDB() {
       fs.copyFileSync(from, to);
     }
   );
-
+  
   // 4. 创建 package.json 文件
   const pkgConfig = {
     "name": "@icedesign/materails-db-test",
