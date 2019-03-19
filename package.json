@@ -4,6 +4,7 @@
   "description": "",
   "main": "materials-db-publish.js",
   "scripts": {
+    "test": "echo 123",
     "sync": "node materials-db-publish.js"
   },
   "repository": {
