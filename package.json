@@ -4,7 +4,6 @@
   "description": "",
   "main": "materials-db-publish.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "sync": "node materials-db-publish.js"
   },
   "repository": {
