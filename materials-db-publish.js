@@ -5,7 +5,7 @@ const { exec } = require('child_process');
 const rimraf = require("rimraf");
 const semver = require("semver");
 const { generateNpmrc } = require('./utils');
-
+ 
 function publishMaterialsDB() {
   
   // 1. 创建临时文件夹
