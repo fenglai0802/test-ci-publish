@@ -1,0 +1,13 @@
+sudo: required
+language: node_js
+node_js:
+  - '8'
+
+deploy:
+  provider: script
+  skip_cleanup: true # 避免清空已安装的依赖
+  script: npm run sync
+  on:
+    all_branches: true # 仅在 master | pre-depoly 分支进行 deploy
+    repo: fenglai0802/test-ci-publish
+    condition: $TRAVIS_BRANCH =~ ^master|production$
