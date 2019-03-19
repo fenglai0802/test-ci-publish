@@ -1,0 +1,926 @@
+{
+  "name": "vue-materials",
+  "type": "vue",
+  "blocks": [
+    {
+      "name": "bar-chart",
+      "title": "条形图",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/bar-chart-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "echarts": "^4.0.4",
+        "@vue-materials/basic-container": "^1.0.0",
+        "v-charts": "^1.16.10",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://img.alicdn.com/tfs/TB1gSTgpKuSBuNjy1XcXXcYjFXa-2016-876.png",
+      "categories": [
+        "图表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "v-charts 条形图",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/BarChart",
+      "publishTime": "2018-04-24T13:13:58.628Z",
+      "updateTime": "2018-04-24T13:14:03.052Z"
+    },
+    {
+      "name": "basic-exception",
+      "title": "基础异常报错",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/basic-exception-block",
+        "version": "1.0.1",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/18508817/40156388-bf1a1b92-59cb-11e8-913c-b31886149263.png",
+      "categories": [
+        "异常"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "基于element-ui组件的基础异常报错",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/BasicException",
+      "publishTime": "2018-05-17T01:34:10.398Z",
+      "updateTime": "2018-05-17T06:30:57.053Z"
+    },
+    {
+      "name": "basic-form",
+      "title": "基础表单",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/basic-form-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://img.alicdn.com/tfs/TB13E09pMmTBuNjy1XbXXaMrVXa-2014-1148.png",
+      "categories": [
+        "表单"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "基础表单",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/BasicForm",
+      "publishTime": "2018-04-24T13:14:00.760Z",
+      "updateTime": "2018-04-24T13:14:06.400Z"
+    },
+    {
+      "name": "basic-not-found",
+      "title": "404 报错提示",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/basic-not-found-block",
+        "version": "1.0.1",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/18508817/40071509-8a83af2a-58a3-11e8-926a-42a70c06bc71.png",
+      "categories": [
+        "异常"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "基于element-ui组件的404 报错提示",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/BasicNotFound",
+      "publishTime": "2018-05-17T01:34:27.807Z",
+      "updateTime": "2018-05-17T10:10:02.758Z"
+    },
+    {
+      "name": "basic-table",
+      "title": "基础表格",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/basic-table-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://img.alicdn.com/tfs/TB1BvzBpGmWBuNjy1XaXXXCbXXa-2004-1018.png",
+      "categories": [
+        "表格"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "基础表格",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/BasicTable",
+      "publishTime": "2018-04-24T13:14:05.964Z",
+      "updateTime": "2018-04-24T13:14:09.065Z"
+    },
+    {
+      "name": "d2-crud",
+      "title": "D2Crud复杂示例",
+      "source": {
+        "type": "npm",
+        "npm": "@d2-projects/d2-crud-ice-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@d2-projects/d2-crud": "^1.1.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "http://qiniucdn.fairyever.com/20180907163652.png",
+      "categories": [
+        "表格"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "基于Element的表格封装复杂示例",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/D2Crud",
+      "publishTime": "2018-12-13T08:15:08.150Z",
+      "updateTime": "2018-12-13T08:15:14.432Z"
+    },
+    {
+      "name": "d2-crud",
+      "title": "D2Crud简单示例",
+      "source": {
+        "type": "npm",
+        "npm": "@d2-projects/d2-crud-ice-block-simple",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@d2-projects/d2-crud": "^1.1.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "http://qiniucdn.fairyever.com/20180907163636.png",
+      "categories": [
+        "表格"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "基于Element的表格封装简单示例",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/D2CrudSimple",
+      "publishTime": "2018-12-13T08:16:22.797Z",
+      "updateTime": "2018-12-13T08:16:26.267Z"
+    },
+    {
+      "name": "data-display",
+      "title": "数据展示",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/data-display-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
+        "normalize.css": "^8.0.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://img.alicdn.com/tfs/TB1IKT9jfDH8KJjy1XcXXcpdXXa-1892-324.png",
+      "categories": [
+        "数据展示"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "用于简单数据的模板展示",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/DataDisplay",
+      "publishTime": "2018-05-17T01:47:35.553Z",
+      "updateTime": "2018-05-17T01:47:40.506Z"
+    },
+    {
+      "name": "diy-toggle-chart",
+      "title": "diy-toggle-chart",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/diy-toggle-chart-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "echarts": "^4.0.4",
+        "@vue-materials/basic-container": "^1.0.0",
+        "v-charts": "^1.16.10",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/18508817/40873801-bf4a596c-6699-11e8-8839-a625e52212fd.png",
+      "categories": [
+        "图表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "v-chart 自定义图表类型切换，支持七种图表类型切换",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/DiyToggleChart",
+      "publishTime": "2018-07-29T16:05:00.267Z",
+      "updateTime": "2018-07-29T16:05:16.937Z"
+    },
+    {
+      "name": "empty-content",
+      "title": "空内容提示",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/empty-content-block",
+        "version": "1.0.1",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://img.alicdn.com/tfs/TB161Wer1uSBuNjy1XcXXcYjFXa-2528-1266.png",
+      "categories": [
+        "异常"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "基于element-ui组件的空内容提示",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/EmptyContent",
+      "publishTime": "2018-05-17T01:35:10.646Z",
+      "updateTime": "2018-05-17T10:10:06.316Z"
+    },
+    {
+      "name": "fixed-table",
+      "title": "固定表格",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/fixed-table-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://img.alicdn.com/tfs/TB15b7.pTtYBeNjy1XdXXXXyVXa-1964-660.png",
+      "categories": [
+        "表格"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "固定列和表头的表格",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/FixedTable",
+      "publishTime": "2018-04-24T13:14:10.973Z",
+      "updateTime": "2018-04-24T13:14:13.805Z"
+    },
+    {
+      "name": "funnel-chart",
+      "title": "funnel-chart",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/funnel-chart-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "echarts": "^4.0.4",
+        "@vue-materials/basic-container": "^1.0.0",
+        "v-charts": "^1.16.10",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/18508817/40873590-ae08fab8-6695-11e8-90dd-c600d8f413c6.png",
+      "categories": [
+        "图表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "v-chart 漏斗图",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/FunnelChart",
+      "publishTime": "2018-07-29T16:05:00.284Z",
+      "updateTime": "2018-07-29T16:05:10.438Z"
+    },
+    {
+      "name": "gauge-chart",
+      "title": "gauge-chart",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/gauge-chart-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "echarts": "^4.0.4",
+        "@vue-materials/basic-container": "^1.0.0",
+        "v-charts": "^1.16.10",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/18508817/40871938-b23c73da-6677-11e8-8944-d85dfbc9de92.png",
+      "categories": [
+        "图表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "v-chart 仪表盘",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/GaugeChart",
+      "publishTime": "2018-07-29T16:05:00.271Z",
+      "updateTime": "2018-07-29T16:05:16.636Z"
+    },
+    {
+      "name": "heatmap-chart",
+      "title": "heatmap-chart",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/heatmap-chart-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "echarts": "^4.0.4",
+        "@vue-materials/basic-container": "^1.0.0",
+        "v-charts": "^1.16.10",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/18508817/40877885-8890d22c-66ba-11e8-86bd-f1ea0806f2fd.png",
+      "categories": [
+        "图表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "v-chart 高德地图热力图",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/HeatmapChart",
+      "publishTime": "2018-07-29T16:05:00.344Z",
+      "updateTime": "2018-07-29T16:05:09.684Z"
+    },
+    {
+      "name": "histogram-chart",
+      "title": "柱状图",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/histogram-chart-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "echarts": "^4.0.4",
+        "@vue-materials/basic-container": "^1.0.0",
+        "v-charts": "^1.16.10",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://img.alicdn.com/tfs/TB1Gfs.pTtYBeNjy1XdXXXXyVXa-1944-848.png",
+      "categories": [
+        "图表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "v-charts 柱状图",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/HistogramChart",
+      "publishTime": "2018-04-24T13:15:29.540Z",
+      "updateTime": "2018-04-24T13:15:32.419Z"
+    },
+    {
+      "name": "line-chart",
+      "title": "折线图",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/line-chart-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "echarts": "^4.0.4",
+        "@vue-materials/basic-container": "^1.0.0",
+        "v-charts": "^1.16.10",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://img.alicdn.com/tfs/TB1V0S2pQyWBuNjy0FpXXassXXa-1964-842.png",
+      "categories": [
+        "图表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "v-charts 折线图",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/LineChart",
+      "publishTime": "2018-04-24T13:15:32.248Z",
+      "updateTime": "2018-04-24T13:15:36.577Z"
+    },
+    {
+      "name": "map-toggle-chart",
+      "title": "map-toggle-chart",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/map-toggle-chart-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "echarts": "^4.0.4",
+        "@vue-materials/basic-container": "^1.0.0",
+        "v-charts": "^1.16.10",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/18508817/40878048-b260eecc-66bd-11e8-80ff-2dc0bfc5d800.png",
+      "categories": [
+        "图表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "基于v-chart 地图类型切换，amap支持主题类型切换，bmap支持底图切换",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/MapToggleChart",
+      "publishTime": "2018-07-29T16:05:40.583Z",
+      "updateTime": "2018-07-29T16:05:46.643Z"
+    },
+    {
+      "name": "normal-toggle-chart",
+      "title": "normal-toggle-chart",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/normal-toggle-chart-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "echarts": "^4.0.4",
+        "@vue-materials/basic-container": "^1.0.0",
+        "v-charts": "^1.16.10",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/18508817/40877809-61862066-66b9-11e8-964f-ef44f96f499b.png",
+      "categories": [
+        "图表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "v-chart 自带的图表切换",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/NormalToggleChart",
+      "publishTime": "2018-07-29T16:06:00.557Z",
+      "updateTime": "2018-07-29T16:06:03.259Z"
+    },
+    {
+      "name": "not-permission",
+      "title": "无权限提示",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/not-permission-block",
+        "version": "1.0.1",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/18508817/40156536-aa55aa7c-59cc-11e8-971a-ecc339655041.png",
+      "categories": [
+        "异常"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "基于element-ui组件的无权限提示",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/NotPermission",
+      "publishTime": "2018-05-17T01:34:46.419Z",
+      "updateTime": "2018-05-17T10:10:08.695Z"
+    },
+    {
+      "name": "pie-chart",
+      "title": "pie-chart",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/pie-chart-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "echarts": "^4.0.4",
+        "@vue-materials/basic-container": "^1.0.0",
+        "v-charts": "^1.16.10",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/18508817/40873980-252d4850-669c-11e8-9e46-b44212c6f073.png",
+      "categories": [
+        "图表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "v-chart 饼图",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/PieChart",
+      "publishTime": "2018-07-29T16:05:02.148Z",
+      "updateTime": "2018-07-29T16:05:11.510Z"
+    },
+    {
+      "name": "radar-chart",
+      "title": "radar-chart",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/radar-chart-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "echarts": "^4.0.4",
+        "@vue-materials/basic-container": "^1.0.0",
+        "v-charts": "^1.16.10",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/18508817/40873504-a9e4cf68-6693-11e8-8ee4-93ba91958204.png",
+      "categories": [
+        "图表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "v-chart 雷达图",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/RadarChart",
+      "publishTime": "2018-07-29T16:05:40.551Z",
+      "updateTime": "2018-07-29T16:05:46.754Z"
+    },
+    {
+      "name": "ring-chart",
+      "title": "ring-chart",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/ring-chart-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "echarts": "^4.0.4",
+        "@vue-materials/basic-container": "^1.0.0",
+        "v-charts": "^1.16.10",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/18508817/40873835-5823c2fe-669a-11e8-9c25-d8e749884b21.png",
+      "categories": [
+        "图表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "v-chart 环图",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/RingChart",
+      "publishTime": "2018-07-29T16:05:00.390Z",
+      "updateTime": "2018-07-29T16:05:16.896Z"
+    },
+    {
+      "name": "scatter-chart",
+      "title": "scatter-chart",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/scatter-chart-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "echarts": "^4.0.4",
+        "@vue-materials/basic-container": "^1.0.0",
+        "v-charts": "^1.16.10",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/18508817/40872375-eca28c00-667f-11e8-9af9-d925384e3553.png",
+      "categories": [
+        "图表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "v-chart 散点图",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/ScatterChart",
+      "publishTime": "2018-07-29T16:05:00.370Z",
+      "updateTime": "2018-07-29T16:05:09.610Z"
+    },
+    {
+      "name": "select-table",
+      "title": "多选表格",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/select-table-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/6414178/44146037-6cf5df18-a0c0-11e8-824b-b8d12eddeeaa.png",
+      "categories": [
+        "表格"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "多选表格",
+      "repository": "https://github.com/alibaba/ice",
+      "publishTime": "2018-08-29T03:43:23.403Z",
+      "updateTime": "2018-08-29T03:43:26.184Z"
+    },
+    {
+      "name": "simple-footer",
+      "title": "简单页脚",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/simple-footer-block",
+        "version": "0.1.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
+        "normalize.css": "^8.0.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://img.alicdn.com/tfs/TB1rnmNouuSBuNjy1XcXXcYjFXa-2390-170.png",
+      "categories": [
+        "其他"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "LOGO和导航组合的页脚",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/SimpleFooter",
+      "publishTime": "2018-05-31T10:25:54.755Z",
+      "updateTime": "2018-05-31T10:25:59.736Z"
+    },
+    {
+      "name": "tab-table",
+      "title": "基于element的标签页表格组合",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/tab-table-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://img.alicdn.com/tfs/TB1IYWRXeuSBuNjy1XcXXcYjFXa-1902-906.png",
+      "categories": [
+        "表格"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "基于element的标签页表格组合",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/TabTable",
+      "publishTime": "2018-07-29T16:01:38.156Z",
+      "updateTime": "2018-07-29T16:01:41.618Z"
+    },
+    {
+      "name": "tag-message-list",
+      "title": "标签消息列表",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/tag-message-list-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
+        "normalize.css": "^8.0.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/1523060/39664002-246a6496-50af-11e8-996f-ed203d7ad564.png",
+      "categories": [
+        "列表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "标签消息列表",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/TagMessageList",
+      "publishTime": "2018-05-17T02:02:31.824Z",
+      "updateTime": "2018-05-17T02:02:37.306Z"
+    },
+    {
+      "name": "user-login",
+      "title": "登录页",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/user-login-block",
+        "version": "1.0.1",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "@vue-materials/basic-container": "^1.0.0",
+        "normalize.css": "^8.0.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://img.alicdn.com/tfs/TB1WlGbXMmTBuNjy1XbXXaMrVXa-2868-1602.png",
+      "categories": [
+        "登录页"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "基于element-ui组件的用户登录界面",
+      "repository": "https://github.com/alibaba/ice/tree/master/vue-materials/blocks/UserLogin",
+      "publishTime": "2018-05-10T07:05:45.342Z",
+      "updateTime": "2018-05-10T07:29:01.895Z"
+    },
+    {
+      "name": "waterfall-chart",
+      "title": "waterfall-chart",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/waterfall-chart-block",
+        "version": "1.0.0",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "echarts": "^4.0.4",
+        "@vue-materials/basic-container": "^1.0.0",
+        "v-charts": "^1.16.10",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://user-images.githubusercontent.com/6414178/44137279-61c8508a-a0a2-11e8-9a66-28f15c6038a6.png",
+      "categories": [
+        "图表"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "v-chart 瀑布图",
+      "repository": "https://github.com/alibaba/ice",
+      "publishTime": "2018-08-29T03:29:43.006Z",
+      "updateTime": "2018-08-29T03:29:46.947Z"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "header-aside-layout",
+      "title": "顶部-侧边-布局",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/header-aside-layout",
+        "version": "1.0.2",
+        "registry": "http://registry.npmjs.com",
+        "sourceCodeDirectory": "src/"
+      },
+      "dependencies": {
+        "element-ui": "^2.3.4",
+        "normalize.css": "^8.0.0",
+        "vue": "^2.5.16"
+      },
+      "screenshot": "https://img.alicdn.com/tfs/TB1.d2CpGmWBuNjy1XaXXXCbXXa-2840-1596.png",
+      "categories": [
+        "布局"
+      ],
+      "features": {
+        "useComponents": []
+      },
+      "description": "顶部导航 + 边栏 + 内容区的布局, 通常用于站点正文。",
+      "thumbnail": "https://gw.alicdn.com/tfs/TB1dC19lC_I8KJjy0FoXXaFnVXa-976-974.png",
+      "repository": "https://github.com/alibaba/ice",
+      "publishTime": "2018-05-04T20:35:41.631Z",
+      "updateTime": "2018-05-15T03:10:22.483Z"
+    }
+  ],
+  "scaffolds": [
+    {
+      "name": "admin-lite",
+      "title": "Admin Lite",
+      "source": {
+        "type": "npm",
+        "npm": "@vue-materials/admin-lite",
+        "version": "1.0.7",
+        "registry": "http://registry.npmjs.com"
+      },
+      "builder": "",
+      "dependencies": {
+        "element-ui": "^2.3.6",
+        "normalize.css": "^8.0.0",
+        "vue": "^2.5.13",
+        "vue-router": "^3.0.1"
+      },
+      "devDependencies": {
+        "@babel/core": "7.0.0-beta.54",
+        "@babel/plugin-proposal-class-properties": "7.0.0-beta.54",
+        "@babel/plugin-proposal-decorators": "7.0.0-beta.54",
+        "@babel/plugin-proposal-export-namespace-from": "7.0.0-beta.54",
+        "@babel/plugin-proposal-function-sent": "7.0.0-beta.54",
+        "@babel/plugin-proposal-json-strings": "7.0.0-beta.54",
+        "@babel/plugin-proposal-numeric-separator": "7.0.0-beta.54",
+        "@babel/plugin-proposal-throw-expressions": "7.0.0-beta.54",
+        "@babel/plugin-syntax-dynamic-import": "7.0.0-beta.54",
+        "@babel/plugin-syntax-import-meta": "7.0.0-beta.54",
+        "@vue/cli-plugin-babel": "^3.0.0-beta.6",
+        "@vue/cli-plugin-eslint": "^3.0.0-beta.6",
+        "@vue/cli-service": "^3.0.0-beta.6",
+        "@vue/eslint-config-airbnb": "^3.0.0-beta.6",
+        "eslint-plugin-vue": "^4.5.0",
+        "node-sass": "^4.7.2",
+        "sass-loader": "^6.0.6",
+        "vue-template-compiler": "^2.5.13"
+      },
+      "screenshot": "https://img.alicdn.com/tfs/TB1SqrjontYBeNjy1XdXXXXyVXa-2842-1596.png",
+      "categories": [],
+      "features": {},
+      "homepage": "https://alibaba.github.io/ice/scaffold-preview/admin-lite.html",
+      "repository": "https://github.com/alibaba/ice",
+      "description": "该模板适用于从 0 到 1 开始搭建项目，内置基础的页面，路由和菜单展示。",
+      "publishTime": "2018-04-24T13:18:47.655Z",
+      "updateTime": "2018-09-14T02:59:55.152Z"
+    },
+    {
+      "name": "D2Admin ICE",
+      "title": "D2Admin ICE",
+      "source": {
+        "type": "npm",
+        "npm": "@d2-admin/ice-scaffold",
+        "version": "1.3.7",
+        "registry": "http://registry.npmjs.com"
+      },
+      "builder": "",
+      "dependencies": {
+        "axios": "^0.17.1",
+        "babel-polyfill": "^6.26.0",
+        "better-scroll": "^1.12.1",
+        "dayjs": "^1.6.7",
+        "element-ui": "^2.4.4",
+        "flex.css": "^1.1.7",
+        "fuse.js": "^3.2.1",
+        "hotkeys-js": "^3.3.6",
+        "js-cookie": "^2.2.0",
+        "lodash": "^4.17.11",
+        "lowdb": "^1.0.0",
+        "mockjs": "^1.0.1-beta3",
+        "nprogress": "^0.2.0",
+        "particles.js": "^2.0.0",
+        "screenfull": "^3.3.2",
+        "ua-parser-js": "^0.7.18",
+        "vue": "^2.5.17",
+        "vue-i18n": "^7.4.2",
+        "vue-router": "^3.0.1",
+        "vuex": "^3.0.1"
+      },
+      "devDependencies": {
+        "@kazupon/vue-i18n-loader": "^0.3.0",
+        "@vue/cli-plugin-babel": "^3.0.0",
+        "@vue/cli-plugin-eslint": "^3.0.0",
+        "@vue/cli-plugin-unit-jest": "^3.0.0",
+        "@vue/cli-service": "^3.0.0",
+        "@vue/eslint-config-standard": "^3.0.0",
+        "@vue/test-utils": "^1.0.0-beta.20",
+        "babel-core": "7.0.0-bridge.0",
+        "babel-jest": "^23.0.1",
+        "lint-staged": "^7.2.0",
+        "node-sass": "^4.9.0",
+        "sass-loader": "^7.0.1",
+        "svg-sprite-loader": "^3.8.0",
+        "text-loader": "0.0.1",
+        "vue-template-compiler": "^2.5.17"
+      },
+      "screenshot": "https://qiniucdn.fairyever.com/20181031190420.png",
+      "categories": [],
+      "features": {},
+      "homepage": "https://ice.d2admin.fairyever.com",
+      "description": "支持多页模式，提供网络请求封装和假数据模拟，Cookie封装，数据持久化系统，主题系统，多国语，超过600个图标以及支持svg图标扩充。",
+      "publishTime": "2018-07-09T11:29:28.870Z",
+      "updateTime": "2018-11-08T04:53:42.975Z"
+    }
+  ]
+}

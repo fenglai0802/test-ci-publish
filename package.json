@@ -1,0 +1,25 @@
+{
+  "name": "test-ci-publish",
+  "version": "1.0.0",
+  "description": "",
+  "main": "materials-db-publish.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sync": "node materials-db-publish.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fenglai0802/test-ci-publish.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fenglai0802/test-ci-publish/issues"
+  },
+  "homepage": "https://github.com/fenglai0802/test-ci-publish#readme",
+  "dependencies": {
+    "npm-request-json": "^1.0.5",
+    "rimraf": "^2.6.3",
+    "semver": "^5.6.0"
+  }
+}
