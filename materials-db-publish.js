@@ -58,7 +58,10 @@ function publishMaterialsDB() {
     fs.writeFileSync(pkgPath, JSON.stringify(pkgConfig));
     // 5. 发布
     exec('npm publish', {
-      cwd: tempDir
+      cwd: tempDir,
+      env: Object.assign({}, process.env, {
+        NPM_CONFIG_GLOBALCONFIG: npmrc, // 定义 npm 发布权限认证 rc 文件
+      }),
     }, (error, stdout, stderr) => {
       if(error) {
         console.error(error);
