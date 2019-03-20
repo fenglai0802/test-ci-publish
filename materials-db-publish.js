@@ -17,7 +17,8 @@ function publishMaterialsDB() {
 
   // 2. 创建 npmrc 文件
   generateNpmrc(tempDir);
-
+  const npmrc = path.join(tempDir, 'npmrc');
+  
   // 3 同步build下物料源配置文件到 tempDir/src 下
   const buildPath = path.resolve(__dirname, './build');
   fs.readdirSync(buildPath).map(
