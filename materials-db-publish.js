@@ -1,7 +1,7 @@
 const npmRequestJson = require('npm-request-json');
 const path = require('path');
 const fs = require('fs');
-const { exec } = require('child_process');
+const { spawn } = require('child_process');
 const rimraf = require("rimraf");
 const semver = require("semver");
 const { generateNpmrc } = require('./utils');
@@ -58,21 +58,42 @@ function publishMaterialsDB() {
     const pkgPath = path.join(tempDir, 'package.json');
     fs.writeFileSync(pkgPath, JSON.stringify(pkgConfig));
     // 5. 发布
-    exec('npm publish', {
+    const ps = spawn('npm', ['publish'], {
       cwd: tempDir,
+      stdio: 'inherit',
       env: Object.assign({}, process.env, {
         NPM_CONFIG_GLOBALCONFIG: npmrc, // 定义 npm 发布权限认证 rc 文件
       }),
-    }, (error, stdout, stderr) => {
-      if(error) {
+    });
+
+    ps.on('close', (code) => {
+      if (code === 0) {
+        console.log('发布完成: ' + stdout);
+        rimraf.sync(tempDir);
+      } else {
         console.error(error);
         rimraf.sync(tempDir);
         return
-        // throw error;
       }
-      console.log('发布完成: ' + stdout);
-      rimraf.sync(tempDir);
-    })
+    });
+
+
+
+    // exec('npm publish', {
+    //   cwd: tempDir,
+    //   env: Object.assign({}, process.env, {
+    //     NPM_CONFIG_GLOBALCONFIG: npmrc, // 定义 npm 发布权限认证 rc 文件
+    //   }),
+    // }, (error, stdout, stderr) => {
+    //   if(error) {
+    //     console.error(error);
+    //     rimraf.sync(tempDir);
+    //     return
+    //     // throw error;
+    //   }
+    //   console.log('发布完成: ' + stdout);
+    //   rimraf.sync(tempDir);
+    // })
   })
 }
 
